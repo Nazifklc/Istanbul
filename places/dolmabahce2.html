@@ -6,42 +6,112 @@
         <style>
             body {
                 font-family:Georgia, 'Times New Roman', Times, serif;
+                background-color: bisque;
+                ;
             }
-            h2{
-                text-align:center;
-                font-size: 45px;
-                color: crimson;
-                font-weight: 1000;
-            }
-            img {
+            div img {
                 display: block;
                 border-radius: 20px;
                 border: 4px solid black;
-                margin:auto;
+                margin: 10px auto;
             }
-            P {
+            
+            .ıstanbul{
+                width: 300px;
+                height: 200px;
+                display: block;
+                margin: 0 auto;
+            }
+            
+            p {
                 text-align: center;
                 font-size: 25px;
-                background-color: black;
-                color: white;
+                font-weight: 600;
             }
-
+            
+            a{
+                text-decoration: none;
+                color: #e67e22
+            }
+            
+            a:hover{
+                color: yellow;
+            }
+            
+            button {
+                font-size: 40px;
+                background-color: #3498db;
+            }
+            
+            #ins {
+                display: block;
+                width: 100px;
+                height: auto;
+                margin: auto;
+            
+            }
+            
+            .str{
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 5px;
+                padding-right: 5px;
+                display: flex;
+                margin-right: 0px;
+                margin-left: 0px;
+                background-color: aquamarine;
+                justify-content: space-between;
+                border-radius: 20px;
+                border: 4px solid black;
+            }
+            
+            div button{
+                border-radius: 15px;
+                border: 3px solid black;
+            }
+            
+            .maınbox{
+                margin: 10px auto;
+                background-color: aquamarine;
+            }
+            #fırstbox{
+                margin: 10px 600px;
+            
+            }
+            div div p{
+                font-size: 16px;
+            }
+            div div h1{
+                text-align:center;
+                font-size: 20px;
+                color: crimson;
+                font-weight: 1000;
+            }
+            .box1{
+                margin: 10px 0;
+                display: flex;
+                justify-content: space-between;
+            }
+            .box1 div{
+                width: 335px;
+                height: 190px;
+                display: inline-block;
+                margin-top: 10px;
+                margin-right: 300px;
+                margin-left: 300px;
+            }
+            
         </style>
     </head>
     <body>
-        <a href="../index.html" alt="Home Page"><img src="../images/return.png" width="30" height="30"></a>
-        <h2>Dolmabahçe Palace</h2>
-        <img src="../images/dolmabahce.jpg" width="600" height="300" alt="Dolmabahçe Place">
-        <p>
-            Poised gracefully on the European shores of the Bosphorus, Dolmabahçe Palace emerges as a symbol of the Ottoman Empire's grandeur and the fusion of Eastern and Western architectural styles. Commissioned by Sultan Abdulmecid I in the 19th century, this majestic palace replaced the traditional Ottoman residence, Topkapı Palace, ushering in a new era of imperial elegance.
-
-The exterior of Dolmabahçe Palace is a harmonious blend of Baroque, Rococo, and Neoclassical influences, reflecting the Sultan's desire to modernize the Ottoman Empire. The grand facade, adorned with ornate sculptures and intricate details, serves as an opulent introduction to the lavish interiors that await within.
-
-As visitors step through the palace gates, they are greeted by a world of splendor. The opulent interiors boast intricate parquet floors, gilded moldings, and magnificent crystal chandeliers. Each room tells a story of the empire's cultural richness, with European-style furniture seamlessly integrated with traditional Ottoman elements. The Grand Ceremonial Hall, with its breathtaking crystal staircase and massive chandelier gifted by Queen Victoria, stands as the epitome of the palace's resplendent design.
-
-The palace's expansive gardens, overlooking the Bosphorus, offer a tranquil escape from the bustling city. Meticulously landscaped with a diverse array of flora, the gardens provide a serene backdrop to the panoramic views of the strait. A stroll through the palace grounds allows visitors to appreciate the careful consideration given to every detail, from the fountains to the pathways, creating an immersive experience in the lap of imperial luxury.
-
-In conclusion, Dolmabahçe Palace is more than an architectural marvel; it is a living testament to the Ottoman Empire's desire to embrace modernity without forsaking its cultural heritage. As you traverse the grand halls and meander through the gardens, you can't help but feel a connection to the opulent lifestyle of the Ottoman elite and the enduring legacy of Dolmabahçe as a jewel in Istanbul's crown.
-        </p>
+        <a href="../index.html"><img class="ıstanbul" src="../images/istanbul.png" alt="Istanbul text logo"></a>
+        <div class="str">
+           <button><a href="./places/dolmabahce2.html">Dolmabahçe Palace</a></button>
+           <button><a href="./places/topkapı.html">Topkapı Palace</a></button>
+           <button><a href="./places/hagia.html">Hagia Sophia</a></button>
+           <button><a href="./places/blue.html">Blue Mosque</a></button>
+           <button><a href="./places/basipca.html">Basipca Cistern</a></button>
+           <button id="glt"><a href="./places/galata.html">Galata Tower</a></button>
+       </div>
     </body>
 </html>
